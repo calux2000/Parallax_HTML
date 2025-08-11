@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: Lato, sans-serif;
+    color: #1d0202;
+}
+.caption{
+   
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border{
+
+    background-color: rgb(13, 131, 13);
+    color: rgb(216, 3, 3);
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+.parallax1{
+    position: relative;
+    background-image: url(../img/festaif.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1{
+    background-color: brown;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url(../img/comidas.jpg);
+    height: 100%;
+    opacity: 0.60;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    background-color: chocolate;
+    text-align: center;
+    padding: 30px 50px;
+}
+.parallax3{
+    position: relative;
+    background-image: url(../img/danças.jpg);
+    height: 100%;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    background-color: brown;
+    text-align: center;
+    padding: 30px 50px;
+}
